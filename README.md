@@ -12,6 +12,11 @@ This project implements Google Calendar integration using Django Rest API. The O
    ```bash
    git clone https://github.com/your-username/project-name.git
    
+2. Install virtual environment  :-
+
+   ```bash
+   python -m venv "evironment name"
+   
 2. Install the project dependencies :-
 
    ```bash
@@ -60,8 +65,18 @@ This project relies on the following dependencies:
 - Django Rest Framework: version 3.9.3
 - Google API Python Client: version 2.0
 
-You can install these dependencies by running the following command:
+### Note:
+To ensure the proper functioning of this assignment, it is necessary to possess valid Google account credentials stored in the project directory and to have a redirect URL added to your Google Cloud setup. Please refer to the documents and references section for further guidance on these requirements.
 
-```bash
-pip install -r requirements.txt
+## Documents and References
 
+| Name | Sources |
+| ------ | ------ |
+| Google Identity: Using OAuth 2.0 for Web Server Applications | [/identity/protocols/oauth2/web-server][PlDb] |
+| Google Calendar API | [/calendar/api/v3/referenc][PlGh] |
+| Google Account Credentials| [/identity/protocols/oauth2/web-server#exchange-authorization-code][PlIa] |
+
+
+[PlDb]: <https://developers.google.com/identity/protocols/oauth2/web-server>
+[PlGh]: <https://developers.google.com/calendar/api/v3/reference>
+[PlIa]: <https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-codee>
