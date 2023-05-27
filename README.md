@@ -12,6 +12,11 @@ This project implements Google Calendar integration using Django Rest API. The O
    ```bash
    git clone https://github.com/your-username/project-name.git
    
+2. Install virtual environment  :-
+
+   ```bash
+   python -m venv "evironment name"
+   
 2. Install the project dependencies :-
 
    ```bash
